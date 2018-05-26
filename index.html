@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Emicida</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <script type = "text/javascript" src = "https://code.jquery.com/jquery-2.1.1.min.js"></script>           
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-<link rel="stylesheet" href="css/home.css">
+  	<title>Emicida</title>
+  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  	<script type = "text/javascript" src = "https://code.jquery.com/jquery-2.1.1.min.js"></script>           
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  	<link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/home.css">
 </head>
 
 <div class="container">    
@@ -21,25 +22,25 @@
           <li><a class="btn-floating black"><i class="material-icons">ondemand_video</i></a></li>
         </ul>
     </div>
-    
-    </div>
+</div>
 
 
-<body>
+<body id="transcroller-body" class="aos-all">
   <div class="grid-container">
     <div class="item1">
         <div class="grid-header">
-            <div class="item11">
+            <div class="item11" 
+            data-aos="fade-up" data-aos-anchor-placement="center-bottom">
                 <img src="img/recorte_01.png" alt="emicida" />
             </div>
-            <div class="item12">                
+            <div class="item12" data-aos="fade-left">                
                 <h1>Emicida</h1>                
                 <p>Segunda chance é só no videogame.<br>então é bom ficar esperto</p>
             </div>   
         </div>
       </div>
     <div class="item2">
-      <div class="albums">
+      <div class="albums" data-aos="fade-left">
 		<img src="http://via.placeholder.com/300x240" alt="">
 		<img src="http://via.placeholder.com/300x240" alt="">
 		<img src="http://via.placeholder.com/300x240" alt="">
@@ -50,10 +51,10 @@
       </div>
     </div>
     <div class="item3">
-      <p>Cada dia é uma chance pra ser melhor que ontem.</p>
+      <p data-aos="fade-left">Cada dia é uma chance pra ser melhor que ontem.</p>
     </div>  
     <div class="item4">
-      <div class="albums">
+      <div class="albums" data-aos="fade-right">
 		<img src="http://via.placeholder.com/300x240" alt="">
 		<img src="http://via.placeholder.com/300x240" alt="">
 		<img src="http://via.placeholder.com/300x240" alt="">
@@ -64,14 +65,22 @@
       </div>
     </div>
     <div class="item5">
-    	<div class="albums">    
+    	<div class="albums" data-aos="fade-up">    
     	<iframe width="660" height="415" src="https://www.youtube.com/embed/GZgnl5Ocuh8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
     	</div>
     </div>
     <div class="item6">
     	<h1>Emicida</h1>
-    	<p>Danilo Sicari & Raphael Freire. Todos os direitos reservados 2018.</p>
+    	<p>Danilo Sicari & Raphael Freire.
+    	Todos os direitos reservados 2018.</p>
     </div>
   </div>
+
+  <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        easing: 'ease-in-out-sine'
+      });
+    </script>
 </body>
 </html>

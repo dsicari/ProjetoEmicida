@@ -49,7 +49,8 @@ body{
 }
 
 .grid-container > .item1 > .grid-header > .item11 > img{
-  width: 593px;
+  width: 548px;
+  height: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -178,7 +179,6 @@ body{
   color: rgba(0,0,0,0.5);
   display: inline-block;
   font-size: 0.9rem;
-  margin-left: 14%;
-  line-height: 120px;
+  margin-left: 13%;
 }
 
