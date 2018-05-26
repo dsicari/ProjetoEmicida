@@ -99,6 +99,12 @@ body{
   box-shadow: 10px 10px 103px -17px rgba(0,0,0,1);
 }
 
+.grid-container > .item2 > .albums > img{
+  display: inline-block;
+  margin-left: 11px;
+  margin-top: 11px;
+}
+
 .grid-container > .item3{
   background-image: url('../img/fundo_03.png');
   background-color: #b70e11;
@@ -128,6 +134,12 @@ body{
   box-shadow: 10px 10px 103px -17px rgba(0,0,0,1);
 }
 
+.grid-container > .item4 > .albums > img{
+  display: inline-block;
+  margin-left: 11px;
+  margin-top: 11px;
+}
+
 .grid-container > .item5{
   background-color: #b70e11;
   height: 510px;
@@ -148,5 +160,25 @@ body{
 .grid-container > .item6{
   background-color: #980a0c;
   height: 120px;
+}
+
+.grid-container > .item6 > h1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  letter-spacing:-3px;
+  font-size: 4rem;
+  text-transform: uppercase;
+  color: rgba(0,0,0,0.5);
+  display: inline-block;
+  margin-left: 15%;
+}
+
+.grid-container > .item6 > p{
+  font-family: 'Montserrat', sans-serif;
+  color: rgba(0,0,0,0.5);
+  display: inline-block;
+  font-size: 0.9rem;
+  margin-left: 14%;
+  line-height: 120px;
 }
 
