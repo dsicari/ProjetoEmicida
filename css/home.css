@@ -44,7 +44,7 @@ body{
 }
 
 .grid-container > .item1{
-  background-image: url('img/fundo_01.png');
+  background-image: url('/img/fundo_01.png');
   //background-attachment: fixed;
 }
 
@@ -84,7 +84,7 @@ body{
 }
 
 .grid-container > .item2{
-  background-image: url('img/fundo_02.png');
+  background-image: url('/img/fundo_02.png');
   background-attachment: fixed;
 }
 
