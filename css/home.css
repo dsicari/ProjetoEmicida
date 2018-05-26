@@ -24,6 +24,10 @@ body{
     'main3 main3 main3 main3 main3 main3'
     'main4 main4 main4 main4 main4 main4'
     'footer footer footer footer footer footer';
+
+     -webkit-box-shadow: 10px 10px 103px -17px rgba(0,0,0,1);
+  -moz-box-shadow: 10px 10px 103px -17px rgba(0,0,0,1);
+  box-shadow: 10px 10px 103px -17px rgba(0,0,0,1);
 }
 
 .grid-header {
@@ -123,9 +127,6 @@ body{
   height: 530px;
   display: block;
   margin: 50px auto auto auto;
-  -webkit-box-shadow: 10px 10px 103px -17px rgba(0,0,0,1);
-  -moz-box-shadow: 10px 10px 103px -17px rgba(0,0,0,1);
-  box-shadow: 10px 10px 103px -17px rgba(0,0,0,1);
 }
 
 .grid-container > .item5{
