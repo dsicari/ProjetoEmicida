@@ -92,7 +92,7 @@ body{
 .grid-container > .item2 > .albums{
   background-color: white;
   width: 960px;
-  height: 530px;
+  height: 620px;
   display: block;
   margin: 50px auto auto auto;
   -webkit-box-shadow: 10px 10px 103px -17px rgba(0,0,0,1);
@@ -102,8 +102,8 @@ body{
 
 .grid-container > .item2 > .albums > img{
   display: inline-block;
-  margin-left: 11px;
-  margin-top: 11px;
+  margin-left: 25px;
+  margin-top: 25px;
 }
 
 .grid-container > .item3{
@@ -127,7 +127,7 @@ body{
 .grid-container > .item4 > .albums{
   background-color: white;
   width: 960px;
-  height: 530px;
+  height: 505px;
   display: block;
   margin: 50px auto auto auto;
   -webkit-box-shadow: 10px 10px 103px -17px rgba(0,0,0,1);
